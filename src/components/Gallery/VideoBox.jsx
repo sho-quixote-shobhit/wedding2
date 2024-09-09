@@ -29,6 +29,7 @@ const VideoBox = ({ src, title, name }) => {
             <animated.div style={{ ...videoSpring, width: '100%', height: '100%' }}>
                 <video
                     muted
+                    loop = "true"
                     style={{
                         width: '100%',
                         height: '100%',
@@ -37,6 +38,7 @@ const VideoBox = ({ src, title, name }) => {
                         top: 0,
                         left: 0,
                         zIndex: -1,
+                        
                     }}
                     onMouseEnter={(e) => e.currentTarget.play()}
                     onMouseLeave={(e) => e.currentTarget.pause()}

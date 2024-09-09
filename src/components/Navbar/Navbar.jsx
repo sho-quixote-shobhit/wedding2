@@ -9,7 +9,7 @@ const Navbar = () => {
     const [bgColor, setBgColor] = useState('transparent');
 
     const handleScroll = () => {
-        if (window.scrollY > 400) {
+        if (window.scrollY > 200) {
             setBgColor('wheat');
         } else {
             setBgColor('transparent');

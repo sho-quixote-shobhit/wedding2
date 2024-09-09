@@ -1,7 +1,7 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
-import video from '../../assests/headervideo.mp4';
+import video from '../../assests/o3.mp4';
 
 const Header = () => {
     return (

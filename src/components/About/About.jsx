@@ -76,7 +76,7 @@ const About = () => {
                                 lineHeight={{ base: '100%', lg: '120%' }}
                                 color = '#E5977D'
                             >
-                                ITALIAN WEDDING VIDEOGRAPHER
+                                INDIAN WEDDING VIDEOGRAPHER
                             </Text>
                         </animated.div>
 

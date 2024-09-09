@@ -2,10 +2,10 @@ import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import { useInView } from 'react-intersection-observer';
-import v1 from '../../assests/w1.mp4';
-import v2 from '../../assests/w2.mp4';
-import v3 from '../../assests/w3.mp4';
-import v4 from '../../assests/w4.mp4';
+import v1 from '../../assests/o2.mp4';
+import v2 from '../../assests/o1.mp4';
+import v3 from '../../assests/o4.mp4';
+import v4 from '../../assests/o5.mp4';
 import VideoBox from './VideoBox';  
 
 const Gallery = () => {
