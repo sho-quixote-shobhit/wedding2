@@ -3,7 +3,7 @@ import React from 'react'
 
 const Follow = () => {
     const handleClick = () => {
-        window.open('https://www.instagram.com/scrfilms_/')
+        // window.open('https://www.instagram.com/scrfilms_/')
     }
 
     return (
@@ -22,11 +22,10 @@ const Follow = () => {
             >
                 <Text
                     fontSize={{ base: '50px', lg: '60px' }}
-                    // fontFamily="'Inter', serif"
                     color="#E5977D"
                 >
 
-                    Seguici
+                    Narang Productions
                 </Text>
 
                 <Text
