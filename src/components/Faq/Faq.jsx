@@ -52,7 +52,7 @@ const Faq = () => {
                             px={2}
                             color='#E5977D'
                             fontWeight='600'
-                            fontFamily="'Inter', serif"
+                            // fontFamily="'Inter', serif"
                             transition="color 0.3s ease-in-out"
                         >
                             {text}

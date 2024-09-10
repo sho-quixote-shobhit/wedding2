@@ -31,7 +31,7 @@ const Gallery = () => {
         <Box w="100%" display="flex" flexDir="column">
             <Box w={{ base: '90%', lg: '90%' }} m="auto" ref={refText} gap="30px">
                 <animated.div style={textSpring}>
-                    <Text fontSize={{ base: '40px', lg: '80px' }} fontFamily="'Inter', serif" color="#E5977D">
+                    <Text fontSize={{ base: '40px', lg: '80px' }} color="#E5977D">
                         Your Stories
                     </Text>
                 </animated.div>

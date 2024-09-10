@@ -22,7 +22,7 @@ const Follow = () => {
             >
                 <Text
                     fontSize={{ base: '50px', lg: '60px' }}
-                    fontFamily="'Inter', serif"
+                    // fontFamily="'Inter', serif"
                     color="#E5977D"
                 >
 

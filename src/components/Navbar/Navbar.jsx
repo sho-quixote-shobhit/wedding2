@@ -1,6 +1,7 @@
-import { Box, HStack, Text, Modal, ModalOverlay, ModalContent, ModalCloseButton, useDisclosure } from '@chakra-ui/react'
+import { Box, HStack, Text, Modal, ModalOverlay, ModalContent, ModalCloseButton, useDisclosure, Image } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import React, { useState, useEffect } from 'react'
+import logo from '../../assests/logo2-removebg.png'
 
 const MotionModalContent = motion(ModalContent);
 
@@ -10,7 +11,7 @@ const Navbar = () => {
 
     const handleScroll = () => {
         if (window.scrollY > 200) {
-            setBgColor('wheat');
+            setBgColor('white');
         } else {
             setBgColor('transparent');
         }
@@ -28,7 +29,6 @@ const Navbar = () => {
             w={{ base: '100%', lg: '100%' }}
             backgroundColor={bgColor}
             transition="background-color 0.3s ease-in-out"
-            p='0.5rem 0rem'
             position='fixed'
             m='auto auto'
             zIndex='999'
@@ -40,12 +40,9 @@ const Navbar = () => {
                 m='auto auto'
             >
                 <Box w='30%'>
-                    <Text
-                        fontSize={{ base: '35px', lg: '48px' }}
-                        fontFamily="'Inter', serif"
-                    >
-                        LOGO
-                    </Text>
+
+                    <Image src={logo} w={{ base: '70px', md: '80px', lg: '100px' }} />
+
                 </Box>
 
                 <Box
@@ -54,17 +51,15 @@ const Navbar = () => {
                     alignItems='center'
                     justifyContent='flex-end'
                 >
-                    <HStack gap='35px' color = 'white'>
+                    <HStack gap='35px' color='wheat'>
                         <Text
                             textDecoration='underline'
                             fontSize={{ base: '18px', lg: '25px' }}
-                            fontFamily="'Inter', serif"
                         >
                             Contact Us
                         </Text>
                         <Text
                             fontSize={{ base: '18px', lg: '25px' }}
-                            fontFamily="'Inter', serif"
                             cursor="pointer"
                             onClick={onOpen}
                         >
@@ -96,7 +91,6 @@ const Navbar = () => {
                                 <Text
                                     fontSize={{ base: '30px', lg: '50px' }}
                                     fontWeight='550'
-                                    fontFamily="'Inter', serif"
                                     cursor="pointer"
                                     onClick={onOpen}
                                 >
@@ -107,7 +101,6 @@ const Navbar = () => {
                                 <Text
                                     fontSize={{ base: '30px', lg: '50px' }}
                                     fontWeight='550'
-                                    fontFamily="'Inter', serif"
                                     cursor="pointer"
                                     onClick={onOpen}
                                 >
@@ -118,7 +111,6 @@ const Navbar = () => {
                                 <Text
                                     fontSize={{ base: '30px', lg: '50px' }}
                                     fontWeight='550'
-                                    fontFamily="'Inter', serif"
                                     cursor="pointer"
                                     onClick={onOpen}
                                 >
@@ -129,7 +121,6 @@ const Navbar = () => {
                                 <Text
                                     fontSize={{ base: '30px', lg: '50px' }}
                                     fontWeight='550'
-                                    fontFamily="'Inter', serif"
                                     cursor="pointer"
                                     onClick={onOpen}
                                 >
@@ -140,7 +131,6 @@ const Navbar = () => {
                                 <Text
                                     fontSize={{ base: '30px', lg: '50px' }}
                                     fontWeight='550'
-                                    fontFamily="'Inter', serif"
                                     cursor="pointer"
                                     onClick={onOpen}
                                 >

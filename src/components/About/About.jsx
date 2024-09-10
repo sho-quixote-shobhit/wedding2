@@ -3,7 +3,7 @@ import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import { useInView } from 'react-intersection-observer';
 import img from '../../assests/man.jpg';
-import logo from '../../assests/logo.png'
+import logo from '../../assests/logo2-removebg.png'
 
 const About = () => {
     const [refImage, inViewImage] = useInView({
@@ -35,6 +35,7 @@ const About = () => {
                 display='flex'
                 flexDir={{ base: 'column', lg: 'row' }}
                 m='auto auto'
+                // fontfamily = "'Protest Guerrilla' ,  sans-serif"
             >
                 <Box
                     w={{ base: '100%', lg: '50%' }}
@@ -65,22 +66,20 @@ const About = () => {
                         <animated.div style={textSpring}>
                             <Text
                                 fontSize={{ base: '20px', lg: '25px' }}
-                                fontFamily="'Inter', serif"
                                 my={{base : 4 , lg : 4}}
                             >
                                 WE ARE
                             </Text>
                             <Text
-                                fontSize={{ base: '50px', lg: '80px' }}
-                                fontFamily="'Inter', serif"
-                                lineHeight={{ base: '100%', lg: '120%' }}
+                                fontSize={{ base: '50px', lg: '70px' }}
+                                lineHeight={{ base: '100%', lg: '110%' }}
                                 color = '#E5977D'
                             >
                                 INDIAN WEDDING VIDEOGRAPHER
                             </Text>
                         </animated.div>
 
-                        <Box display='flex' gap='12px' fontSize={{ base: '20px', lg: '25px' }} color='grey'>
+                        <Box display='flex' gap='20px' fontSize={{ base: '20px', lg: '23px' }} color='grey'>
                             <Text>Engagement</Text>
                             <Text>Trailer</Text>
                             <Text>Wedding Film</Text>

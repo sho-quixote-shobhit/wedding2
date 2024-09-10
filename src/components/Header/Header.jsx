@@ -33,7 +33,6 @@ const Header = () => {
                             color="white"
                             textAlign='left'
                             lineHeight={{ base: '80%', lg: '100%' }}
-                            fontFamily="'Inter', serif"
                         >
                             We Will Realize Your Dream
                         </Text>

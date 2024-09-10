@@ -15,18 +15,18 @@ const Footer = () => {
                         <Text
                             align='center'
                             fontSize="60px"
-                            fontFamily="'Inter', serif"
+                            
                         >
                             CONTACT US
                         </Text>
                     </Box>
                     <Box w="25%" display='flex' alignItems='center' justifyContent='center' border='1px solid white'>
-                        <Text fontFamily="'Inter', serif">
+                        <Text >
                             +39 334 223 0734
                         </Text>
                     </Box>
                     <Box w="25%" display='flex' alignItems='center' justifyContent='center' border='1px solid white'>
-                        <Text fontFamily="'Inter', serif">
+                        <Text >
                             example@mail.com
                         </Text>
                     </Box>
@@ -163,15 +163,15 @@ const Footer = () => {
             <Box display={{ base: '', lg: 'none' }} >
                 <VStack m = {0} p = {0} gap={0}>
                     <Box w="100%" border='1px solid white' p="20px 0px" textAlign='center'>
-                        <Text fontSize="30px" fontFamily="'Inter', serif">
+                        <Text fontSize="30px" >
                             CONTACT US
                         </Text>
                     </Box>
                     <Box w="100%" border='1px solid white' p="20px 0px" textAlign='center'>
-                        <Text fontFamily="'Inter', serif">+39 334 223 0734</Text>
+                        <Text>+39 334 223 0734</Text>
                     </Box>
                     <Box w="100%" border='1px solid white' p="20px 0px" textAlign='center'>
-                        <Text fontFamily="'Inter', serif">example@mail.com</Text>
+                        <Text>example@mail.com</Text>
                     </Box>
                     <Box w="100%" border='1px solid white' p="20px 0px" textAlign='center'>
                         <Text>Facebook</Text>

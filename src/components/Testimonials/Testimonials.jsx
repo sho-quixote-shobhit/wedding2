@@ -43,7 +43,7 @@ const Testimonials = () => {
                             >
                                 <Text
                                     fontSize={{ base: '19px', lg: '22px' }}
-                                    fontFamily="'Inter', serif"
+        
                                     mb={3}
                                 >
                                     {item.text}
@@ -88,14 +88,14 @@ const Testimonials = () => {
                     <Box>
                         <Text
                             fontSize={{ base: '40px', lg: '50px' }}
-                            fontFamily="'Inter', serif"
+
                         >
                             Gallery
                         </Text>
 
                         <Text
                             fontSize={{ base: '40px', lg: '50px' }}
-                            fontFamily="'Inter', serif"
+
                         >
                             Wedding Films
                         </Text>
