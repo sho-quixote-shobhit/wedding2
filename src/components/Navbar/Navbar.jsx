@@ -54,7 +54,7 @@ const Navbar = () => {
             >
                 <Box w='30%' cursor="pointer" onClick={handleLogoClick}>
 
-                    <Image src={logo} w={{ base: '70px', md: '80px', lg: '100px' }} />
+                    <Image src={logo} w={{ base: '80px', md: '80px', lg: '100px' }} />
 
                 </Box>
 

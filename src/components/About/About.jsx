@@ -35,7 +35,6 @@ const About = () => {
                 display='flex'
                 flexDir={{ base: 'column', lg: 'row' }}
                 m='auto auto'
-                // fontfamily = "'Protest Guerrilla' ,  sans-serif"
             >
                 <Box
                     w={{ base: '100%', lg: '50%' }}
@@ -71,7 +70,7 @@ const About = () => {
                                 WE ARE
                             </Text>
                             <Text
-                                fontSize={{ base: '50px', lg: '70px' }}
+                                fontSize={{ base: '42px', lg: '70px' }}
                                 lineHeight={{ base: '100%', lg: '110%' }}
                                 color = '#E5977D'
                             >
