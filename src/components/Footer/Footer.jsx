@@ -15,14 +15,14 @@ const Footer = () => {
                         <Text
                             align='center'
                             fontSize="60px"
-                            
+
                         >
                             CONTACT US
                         </Text>
                     </Box>
                     <Box w="25%" display='flex' alignItems='center' justifyContent='center' border='1px solid white'>
                         <Text >
-                            +39 334 223 0734
+                            +91 334 223 0734
                         </Text>
                     </Box>
                     <Box w="25%" display='flex' alignItems='center' justifyContent='center' border='1px solid white'>
@@ -65,7 +65,7 @@ const Footer = () => {
                                 zIndex: 2,
                             }
                         }}
-                        cursor = 'pointer'
+                        cursor='pointer'
                     >
                         <Text>Facebook</Text>
                     </Box>
@@ -100,7 +100,7 @@ const Footer = () => {
                                 zIndex: 2,
                             }
                         }}
-                        cursor = 'pointer'
+                        cursor='pointer'
                     >
                         <Text>Instagram</Text>
                     </Box>
@@ -135,7 +135,7 @@ const Footer = () => {
                                 zIndex: 2,
                             }
                         }}
-                        cursor = 'pointer'
+                        cursor='pointer'
                     >
                         <Text>Vimeo</Text>
                     </Box>
@@ -145,23 +145,23 @@ const Footer = () => {
                 <Box display='flex'>
                     <Box w="75%" display='flex' gap='10px' p="20px 0px" border='1px solid white'>
                         <Text mx={4}>
-                            2023 © SCR – Italian wedding Videographer | Aversa, Italy
+                            2024 © Narang Production – Indian wedding Videographer
                         </Text>
                         <Box display='flex' gap='10px'>
-                            <Text cursor = 'pointer' _hover={{color : 'white'}}>Cookie Policy</Text>
-                            <Text cursor = 'pointer' _hover={{color : 'white'}}>Privacy Policy</Text>
+                            <Text cursor='pointer' _hover={{ color: 'white' }}>Cookie Policy</Text>
+                            <Text cursor='pointer' _hover={{ color: 'white' }}>Privacy Policy</Text>
                         </Box>
                     </Box>
 
                     <Box w="25%" display='flex' alignItems='center' border='1px solid white'  >
-                        <Text cursor = 'pointer' mx={4} _hover={{color : 'white'}}>Art.com</Text>
+                        <Text cursor='pointer' mx={4} _hover={{ color: 'white' }}>Art.com</Text>
                     </Box>
                 </Box>
             </Box>
 
             {/* Small screens layout */}
             <Box display={{ base: '', lg: 'none' }} >
-                <VStack m = {0} p = {0} gap={0}>
+                <VStack m={0} p={0} gap={0}>
                     <Box w="100%" border='1px solid white' p="20px 0px" textAlign='center'>
                         <Text fontSize="30px" >
                             CONTACT US
@@ -184,7 +184,7 @@ const Footer = () => {
                     </Box>
                     <Box w="100%" border='1px solid white' p="20px 0px">
                         <Text textAlign='center'>
-                            2023 © SCR – Italian wedding Videographer | Aversa, Italy
+                            2024 © Narang Production – Indian wedding Videographer
                         </Text>
                         <Box display='flex' justifyContent='center' gap='10px' mt={2}>
                             <Text >Cookie Policy</Text>

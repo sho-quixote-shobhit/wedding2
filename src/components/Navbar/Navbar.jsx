@@ -87,7 +87,7 @@ const Navbar = () => {
                 <MotionModalContent
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.5 }}
                     bg='#ffd8b7'
                 >
                     <ModalCloseButton />
