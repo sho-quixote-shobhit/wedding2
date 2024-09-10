@@ -2,6 +2,7 @@ import { Box, HStack, Text, Modal, ModalOverlay, ModalContent, ModalCloseButton,
 import { motion } from 'framer-motion'
 import React, { useState, useEffect } from 'react'
 import logo from '../../assests/logo2-removebg.png'
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const MotionModalContent = motion(ModalContent);
 
@@ -24,6 +25,18 @@ const Navbar = () => {
         };
     }, []);
 
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const handleLogoClick = () => {
+    
+        if (location.pathname !== '/') {
+            navigate('/', { replace: true });
+        } else {
+            window.scrollTo(0, 0);
+        }
+    };
+
     return (
         <Box
             w={{ base: '100%', lg: '100%' }}
@@ -39,7 +52,7 @@ const Navbar = () => {
                 w={{ base: '90%', lg: '90%' }}
                 m='auto auto'
             >
-                <Box w='30%'>
+                <Box w='30%' cursor="pointer" onClick={handleLogoClick}>
 
                     <Image src={logo} w={{ base: '70px', md: '80px', lg: '100px' }} />
 
